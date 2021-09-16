@@ -5,7 +5,7 @@
 
 :root {
     --background: rgb(13, 21, 29);
-    --accent: #3b61cb;
+    --accent: #1d74ff;
     --accent2: #E0C45C;
     --text: rgb(255, 255, 255);
     --shadow: grey;
@@ -29,7 +29,7 @@ body {
     font-family: var(--font);
     font-weight: bold;
     text-decoration: none;
-    padding: 30px 50px;
+    padding: 20px 50px;
     margin: 20px;
     border-radius: 10px;
     color: var(--accent);
