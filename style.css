@@ -6,12 +6,13 @@
 :root {
     --background: rgb(13, 21, 29);
     --accent: #08347a;
-    --accent2: #E0C45C;
+    --accent2: #e05c5c;
     --text: rgb(255, 255, 255);
     --shadow: grey;
     --light1: rgba(255, 255, 255, 0.1);
     --light2: rgba(255, 255, 255, 0.05);
     --font: 'Roboto', sans-serif;
+    --font2: 'Poppins', sans-serif;
 }
 
 body {
@@ -50,6 +51,17 @@ body {
     flex-flow: column;
     border: solid var(--accent);
     border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-family: var(--font2);
+    color: var(--accent);
+    font-weight: normal;
+    margin: 20px;
+    text-transform: capitalize;
+    padding: 0;
+    box-shadow: 0px 3px var(--accent2);
 }
 
 .mbtn {
