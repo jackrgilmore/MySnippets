@@ -41,3 +41,27 @@ body {
     background: var(--accent);
     color: var(--text);
 }
+
+/*multiple button styling*/
+
+.mbtn_wrapper {
+    margin: 20px;
+    display: flex;
+    flex-flow: column;
+    border: solid var(--accent);
+    border-radius: 10px;
+}
+
+.mbtn {
+    text-decoration: none;
+    font-family: var(--font);
+    color: var(--accent);
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.mbtn:hover {
+    background: var(--accent);
+    color: var(--text);
+}
