@@ -6,7 +6,7 @@
 :root {
     --background: rgb(13, 21, 29);
     --accent: #08347a;
-    --accent2: #e05c5c;
+    --accent2: #3168df;
     --text: rgb(255, 255, 255);
     --shadow: grey;
     --light1: rgba(255, 255, 255, 0.1);
@@ -61,7 +61,7 @@ h3 {
     margin: 20px;
     text-transform: capitalize;
     padding: 0;
-    box-shadow: 0px 3px var(--accent2);
+    box-shadow: 0px 4px var(--accent2);
 }
 
 .mbtn {
@@ -74,6 +74,6 @@ h3 {
 }
 
 .mbtn:hover {
-    background: var(--accent);
+    background: var(--accent2);
     color: var(--text);
 }
